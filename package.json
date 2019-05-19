@@ -1,7 +1,7 @@
 {
   "name": "change-git-url",
   "version": "1.1.6",
-  "description": "",
+  "description": "Batch change git projects origin url",
   "main": "index.js",
   "bin": {
     "cgu": "bin/cgu"
@@ -10,8 +10,15 @@
     "dev": "node index.js",
     "build": "pkg package.json --out-path dist"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "git",
+    "git url"
+  ],
+  "author": "satrong",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:satrong/change-git-url.git"
+  },
   "license": "ISC",
   "dependencies": {
     "enquirer": "^2.3.0",
